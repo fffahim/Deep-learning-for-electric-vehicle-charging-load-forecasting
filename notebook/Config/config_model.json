@@ -1,0 +1,31 @@
+{
+    "LSTM":{
+        "lag_window" : 7,
+        "hidden_size" : 5,
+        "input_size" : 6,
+        "output_size" : 6,
+        "learning_rate" : 0.0001,
+        "batch_size" : 256,
+        "future_step" : 10
+    },
+    "BiLSTM":{
+        "lag_window" : 7,
+        "hidden_size" : 7,
+        "input_size" : 6,
+        "output_size" : 6,
+        "learning_rate" : 0.0001,
+        "batch_size" : 256,
+        "future_step" : 10
+    },
+    "Seq2Seq":{
+        "lag_window" : 7,
+        "hidden_size" : 3,
+        "input_size" : 6,
+        "output_size" : 6,
+        "kernel_size" : 3,
+        "learning_rate" : 0.0001,
+        "num_blocks" : 3,
+        "batch_size" : 256,
+        "future_step" : 10
+    }
+}

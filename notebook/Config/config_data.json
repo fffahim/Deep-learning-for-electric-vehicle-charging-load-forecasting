@@ -1,0 +1,10 @@
+{
+    "palo_alto":{
+        "split_date": "2021-12-31 23:00:00",
+        "resample_frequency" : 1
+    },
+    "jpl":{
+        "split_date": "2021-12-31 23:00:00",
+        "resample_frequency" : 1
+    }
+}
